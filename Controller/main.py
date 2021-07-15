@@ -13,8 +13,9 @@ from PyQt5.uic import loadUiType
 from Model.database import version
 from Model.models import *
 
-# 加载系统主题配置路径
-QtCore.QCoreApplication.addLibraryPath("/usr/lib/qt/plugins")
+# 加载系统主题配置路径 (on linux)
+# QtCore.QCoreApplication.addLibraryPath("/usr/lib/qt/plugins")
+
 # 设置布局文件
 UiFile, _tmp = loadUiType('../View/main.ui')
 del _tmp

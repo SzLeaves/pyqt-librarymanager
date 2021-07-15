@@ -11,8 +11,9 @@ from PyQt5.uic import loadUiType
 from Controller.main import MainWindow
 from Model.models import User
 
-# 加载系统主题配置路径
-QtCore.QCoreApplication.addLibraryPath("/usr/lib/qt/plugins")
+# 加载系统主题配置路径 (on linux)
+# QtCore.QCoreApplication.addLibraryPath("/usr/lib/qt/plugins")
+
 # 设置布局文件
 UiFile, _tmp = loadUiType('../View/login.ui')
 del _tmp
