@@ -1,0 +1,9 @@
+<RCC>
+    <qresource>
+        <file>./sources/icons/Apps-Library-icon.png</file>
+        <file>./sources/icons/books.png</file>
+        <file>./sources/icons/person.png</file>
+        <file>./sources/icons/settings.png</file>
+        <file>./sources/icons/today.png</file>
+    </qresource>
+</RCC>
