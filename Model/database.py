@@ -15,14 +15,14 @@ password: 数据库登录密码 str
 
 
 def connect():
-    server = '172.17.0.2'
-    database = 'BookDB'
-    username = 'SA'
-    password = 'mssqlASDF@'
+    server = '_host_address_'
+    database = '_database_name_'
+    username = '_server_login_name_'
+    password = '_server_login_password_'
 
     try:
         cnxn = pyodbc.connect(
-            'DRIVER={ODBC Driver 17 for SQL Server};'
+            'DRIVER={ODBC Driver 17 for SQL Server};'  # for Linux ODBC driver, on Windows is {SQL Server}.
             'SERVER=' + server +
             ';DATABASE=' + database +
             ';UID=' + username +
